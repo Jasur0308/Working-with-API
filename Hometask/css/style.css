@@ -1,0 +1,42 @@
+#response {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.user__card {
+    min-height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    border-radius: 10px;
+}
+
+.delete {
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    padding-block: 16px;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: .5s;
+}
+
+.user__card img {
+    height: 120px;
+    object-fit: contain;
+}
+
+.delete:hover {
+    transform: scale(1.1);
+}
+
+.delete:active {
+    transform: scale(0.9);
+}

@@ -1,0 +1,13 @@
+a {
+    background: rgb(0,16,255);
+    background: linear-gradient(90deg, rgba(0,16,255,1) 0%, rgba(145,0,255,1) 100%, rgba(0,212,255,1) 100%);
+    transition: .5s;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+a:active {
+    transform: scale(0.9);
+}
